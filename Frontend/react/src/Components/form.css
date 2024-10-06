@@ -1,0 +1,66 @@
+body{
+    width: 1340px;
+    height: 1000px;
+    text-align: center;
+}
+
+.form{
+    font-weight: 600;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.form1{
+    padding: 20px;
+    font-size: 24px;
+    color: green;
+    font-weight: 700;
+    align-items: center;
+}
+
+form{
+    position: absolute;
+    left: 40%;
+}
+
+.form label{
+    display: flex;
+    justify-content: flex-start;
+}
+
+form .form-input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-input input{
+    width: 350px;
+    height: 30px;
+    border: 0.5px solid #aaa;
+    border-radius: 3px;
+}
+
+.form-input input[type='radio'],
+.form-input input[type='checkbox']{
+    width: 15px;
+    height: 15px;
+}
+
+form .status-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.status-button button{
+    background-color: green;
+    border: 0.5px solid rgb(9, 204, 9);
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
